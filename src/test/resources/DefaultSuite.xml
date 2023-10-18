@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite  name="testNGTests" parallel="methods" thread-count="1" data-provider-thread-count="6">
+    <test name="Api tests">
+        <classes>
+            <class name="robotdreams.automation.api.UserApiProceduresTest"></class>
+            <class name="robotdreams.automation.api.ProjectApiProceduresTest"></class>
+            <class name="robotdreams.automation.api.TaskApiProceduresTest"></class>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="Web tests">
+        <classes>
+            <class name="robotdreams.automation.web.LoginAddProjectTaskWebTest"></class>
+            <class name="robotdreams.automation.web.LoginTest"></class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
