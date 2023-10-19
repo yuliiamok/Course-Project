@@ -6,9 +6,7 @@ import org.testng.asserts.SoftAssert;
 import robotdreams.automation.app.web.DashboardPage;
 import robotdreams.automation.app.web.LoginPage;
 import robotdreams.automation.base.BaseGUITest;
-
 public class LoginTest extends BaseGUITest {
-
 
     @DataProvider(name = "loginData")
     public Object[][] dataProviderMethod() {

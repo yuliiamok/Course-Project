@@ -6,7 +6,6 @@ import robotdreams.automation.app.api.pojo.Project;
 import robotdreams.automation.app.api.pojo.Task;
 import robotdreams.automation.app.api.pojo.User;
 
-import java.nio.file.attribute.UserPrincipal;
 import java.util.Map;
 
 public class CourseJSONRPC {

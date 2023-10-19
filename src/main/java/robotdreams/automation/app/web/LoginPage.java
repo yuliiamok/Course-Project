@@ -17,16 +17,7 @@ public class LoginPage extends BaseSelenidePage {
     protected SelenideElement readyElement() {
         return Selenide.$x("//div[@class='form-login']");
     }
-//    public boolean isErrorMessagePresent() {
-//        Wait.waitWhilePageIsLoading();
-//        try {
-//            alertMessage.shouldBe(
-//                    CollectionCondition.allMatch("exist", WebElement::isDisplayed),
-//                    Duration.ofSeconds(5));
-//        } catch (Throwable e) { /* Ignore */}
-//
-//        return !alertMessage.isEmpty();
-//    }
+
     public boolean isAlertExists() {
         try {
             Selenide.$x("//p[@class='alert alert-error']").should(Condition.exist);

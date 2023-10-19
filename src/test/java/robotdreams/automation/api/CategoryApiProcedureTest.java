@@ -7,8 +7,6 @@ import org.testng.annotations.Test;
 
 public class CategoryApiProcedureTest extends BaseApiTest {
 
-    // Happy path
-
     @DataProvider(name = "createNewPCategoryData")
     public Object[][] dataProviderMethod() {
         return new Object[][] {
@@ -31,9 +29,4 @@ public class CategoryApiProcedureTest extends BaseApiTest {
 
         System.out.println(response);
     }
-
-// Add data provider with different parameters and add softAsserts
-    // Create category duplicate and check that result is false
-    // Create category for project id which does not exist and check that result is false
-    // Create category for project id = 0 and check that result is false
 }

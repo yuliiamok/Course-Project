@@ -4,12 +4,9 @@ import io.restassured.http.ContentType;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import org.testng.asserts.SoftAssert;
 import robotdreams.automation.api.controller.ProjectController;
 import robotdreams.automation.app.api.pojo.*;
 import robotdreams.automation.base.BaseApiTest;
-
-import static io.restassured.RestAssured.given;
 
 public class ProjectApiProceduresTest extends BaseApiTest {
 
@@ -33,7 +30,6 @@ public class ProjectApiProceduresTest extends BaseApiTest {
                         .build()},
         };
     }
-
 
     @Test(dataProvider = "createNewProjectData", testName = "Create new project")
     public void createNewProjectTest(Project project) {
@@ -84,5 +80,4 @@ public class ProjectApiProceduresTest extends BaseApiTest {
                 .then().statusCode(200)
                 .extract().response().body().as(RemoveObjectResponse.class);
     }
-
 }

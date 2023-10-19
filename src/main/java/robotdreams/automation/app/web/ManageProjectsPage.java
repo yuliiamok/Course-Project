@@ -6,7 +6,6 @@ import robotdreams.automation.base.BaseSelenidePage;
 
 public class ManageProjectsPage extends BaseSelenidePage {
 
-
     @Override
     protected SelenideElement readyElement() {
         return Selenide.$x("//div[@class='table-list-header-menu']");

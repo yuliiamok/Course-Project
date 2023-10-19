@@ -69,8 +69,5 @@ public class BaseTestNG {
         } catch (Throwable e) {
             throw new RuntimeException(e);
         }
-
     }
-
-
 }

@@ -12,8 +12,6 @@ public class ProjectPage extends BaseSelenidePage {
 
     final public SelenideElement actionsDropdown = Selenide.$x("//*[@id='main']/div/div[1]/div/a");
 
-
-
     public SubmenuDropdown openSubmenuDropdown() {
         this.actionsDropdown.click();
         return new SubmenuDropdown();

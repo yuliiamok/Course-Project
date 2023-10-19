@@ -6,9 +6,6 @@ import robotdreams.automation.api.controller.UserController;
 import robotdreams.automation.app.api.pojo.RemoveObjectResponse;
 import robotdreams.automation.base.BaseApiTest;
 
-import static io.restassured.RestAssured.given;
-
-
 public class UserApiProceduresTest extends BaseApiTest {
 
     @Test(testName = "Create new user")

@@ -5,6 +5,7 @@
             <class name="robotdreams.automation.api.UserApiProceduresTest"></class>
             <class name="robotdreams.automation.api.ProjectApiProceduresTest"></class>
             <class name="robotdreams.automation.api.TaskApiProceduresTest"></class>
+            <class name="robotdreams.automation.api.CategoryApiProcedureTest"></class>
         </classes>
     </test> <!-- Test -->
 

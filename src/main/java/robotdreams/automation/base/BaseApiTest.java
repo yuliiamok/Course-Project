@@ -12,8 +12,6 @@ import org.testng.annotations.BeforeMethod;
 import robotdreams.automation.Config;
 import robotdreams.automation.app.api.CourseJSONRPC;
 
-import java.util.Map;
-
 import static io.restassured.mapper.ObjectMapperType.GSON;
 
 public class BaseApiTest extends BaseTestNG {

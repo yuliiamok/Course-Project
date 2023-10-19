@@ -1,15 +1,9 @@
 package robotdreams.automation;
 
-import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import robotdreams.automation.testbed.BaseTestbed;
 import robotdreams.automation.testbed.TestbedGrid;
 import robotdreams.automation.testbed.TestbedLocal;
-
-import java.util.HashMap;
-import java.util.Map;
 
 public class Session {
 

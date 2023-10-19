@@ -11,16 +11,3 @@ WEB tests:
 * Project - adding a new one
 * Task - adding new task
 * Scenario - logging user -> creating a project -> adding a tsk
-
-## Supported Browsers
-GUI tests can be executed in the following browsers:
-* Google Chrome 
-* Mozilla Firefox 
-
-## Table of Contents
-
-1. Introduction
-2. API tests
-3. Web UI tests
-4. Running on different browsers
-5. Allure report

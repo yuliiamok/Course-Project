@@ -12,5 +12,4 @@ public class TaskWebProcedureTest extends BaseGUITest {
         ProjectPage projectPage = newTaskBox.addTask("Task 1");
         projectPage.confirm();
     }
-
 }
